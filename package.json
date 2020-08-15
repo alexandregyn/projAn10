@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build-git": "ng build --prod --base-href 'https://alexandregyn.github.io/projAn10/' angular-cli-ghpages ngh --dir=dist/projAn10"
   },
   "private": true,
   "dependencies": {

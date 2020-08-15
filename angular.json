@@ -121,8 +121,16 @@
               "devServerTarget": "projAn10:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "projAn10"
+    }
+  },
+  "defaultProject": "projAn10",
+  "cli": {
+    "analytics": "3aabc65a-1ceb-411e-9f6a-121e0b64c1c7"
+  }
 }
